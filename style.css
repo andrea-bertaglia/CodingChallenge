@@ -1,0 +1,87 @@
+body{
+    background-image: url(img/background.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+    margin: auto;
+    padding: 5%;
+    border-radius: 15px;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.slogan{
+    color: #00dd00;
+    text-align: center;
+}
+
+nav{
+    background-color: #00dd00;
+    padding: 1%;
+    text-align: center;
+}
+
+section{
+    margin-top: 30px;
+    color: white;
+    line-height: 180%;
+}
+
+.nome{
+    font-size: 22px;
+}
+
+.nome:before{
+    content: "\25FD";
+}
+
+.via{
+    font-size: 14px;
+}
+
+.via:before{
+    content: "\21A6";
+}
+
+.carica{
+    font-size: 12px;
+}
+
+.gino{
+    background-color: #f5b453;
+    color: #f5b453;
+    width: 35%;
+}
+
+.mike{
+    background-color: #1ec31e;
+    color: #1ec31e;
+    width: 55%;
+}
+
+.fede{
+    background-color: #be4141;
+    color: #be4141;
+    width: 15%;
+}
+
+.gino, .mike, .fede{
+    border-radius: 5px;
+}
+
+footer{
+    padding: 1%;
+    font-size: 14px;
+    color: #00dd00;
+    text-align: center;
+}
